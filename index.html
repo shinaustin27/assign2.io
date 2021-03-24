@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title> GYMPOD, you personal gym awaits</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<section class="header">
+		<nav>
+			<a href="https://www.thegympod.com/" target="_blank""><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times-circle" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="pricing.html">PRICING</a></li>
+					<li><a href="locations.html">LOCATIONS</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		
+<div class="text-box">
+	<h1>Singapore's first container gym <br>for your private gym session</h1>
+	<p> With Gympod, you can now workout at the comfort of your own space!<br> No more gymtimidation! Book your 
+	favourite pod and choose your time slot and you are good to go.
+	</p>
+	<a href="https://www.thegympod.com/how-it-works/" target="_blank" class="hero-btn"> Download the GYMPOD app to book your own pod</a>
+</div>
+	</section>
+	
+	
+
+
+<!-------footer------->
+<style>
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px o;
+}
+
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+.icons .fa{
+	color: #f44336;
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px o;
+}
+.fa-heart-o{
+	color: #f44336;
+}
+.footer{
+	background-color: #ccc;
+}
+</style>
+<section class="footer">
+	<h4>About Us</h4>
+	<p> Welcome to TheGYMPOD, your private gym awaits</p>
+	<div class="icons">
+		<a href="https://www.facebook.com/thegympod/" target="_blank" class="fa fa-facebook"></a>
+		<a href="https://www.instagram.com/thegympod/?hl=en" target="_blank" class="fa fa-instagram"></a>
+		<a href="https://www.youtube.com/channel/UCLw9GjZYmpQjrNu8GzZP_Xw" target="_blank" class="fa fa-youtube"></a>
+	</div>
+	<p> Made with <i class="fa fa-heart-o"></i> by Teo Shin Austin U2060110C
+	</p>
+</section>
+
+<!-------Javascript for Toggle Menu------->
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.left = "0";
+	}
+	function hideMenu(){
+		navLinks.style.left = "-200px";
+	}
+
+</script>	
+	
+	
+</body>
+</html>

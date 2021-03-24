@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="with=device-width, initial-scale=1.0">
+	<title> GYMPOD, you personal gym awaits</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="https://www.thegympod.com/" target="_blank""><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times-circle" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="pricing.html">PRICING</a></li>
+					<li><a href="locations.html">LOCATIONS</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Locations</h1>
+	</section>
+	
+<!-----------locations content--------->
+<style>
+.row{
+	margin-top:5%;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+
+h1{
+text-align: center;
+}
+
+</style>
+<section class="locations">
+<br>
+<br>
+	<h1> Many GYMPOD facilities all across Singapore</h1>
+	
+	<div class="row">
+	<div class="locations-col">
+		<h3>PODS</h3>
+		<p> <a href="https://www.thegympod.com/alexandra-technopark/" target="_blank">Alexandra Technopark</a><br>
+		<a href="https://www.thegympod.com/techplace1/" target="_blank">Ang Mo Kio Techplace 1</a><br>
+		<a href="https://www.thegympod.com/bishan-angmokio-park/" target="_blank">Bishan-AMK Park</a><br>
+		<a href="https://www.thegympod.com/changi-city-point/" target="_blank">Changi City Point </a><br>
+		<a href="https://www.thegympod.com/50-tagore-lane/" target="_blank">50 Targore Lane</a><br>
+		<a href="https://www.thegympod.com/eon-shenton/" target="_blank">EON Shenton</a><br>
+		<a href="https://www.thegympod.com/international-business-park/" target="_blank">Internation Business Park</a><br>
+		<a href="https://www.thegympod.com/jtclaunchpad/" target="_blank">JTC Launchpad Ayer Rajah</a><br>
+		<a href="https://www.thegympod.com/punggol-park/" target="_blank">Punggol Park</a><br>
+		<a href="https://www.thegympod.com/tampines-tree-garden/" target="_blank">Tampines Tree Garden</a><br>
+		<a href="https://www.thegympod.com/the-cathay/" target="_blank">The Cathay</a><br>
+		<a href="https://www.thegympod.com/viio-balestier/" target="_blank">VIIO Balestier</a></p>
+	</div>
+	<div class="locations-col">
+		<h3>SPINPODS</h3>
+		<p><a href="https://www.thegympod.com/spin-ccp/" target="_blank">Changi City Point</a></p>
+	</div>
+	<div class="locations-col">
+		<h3>COLLABORATIONS</h3>
+		<p><a href="https://www.thegympod.com/connect-at-changi-2/Connect" target="_blank"> Connect@Changi</a><br>
+		<a href="https://www.thegympod.com/80-bendemeer/" target="_blank">80 Bendemeer Road (Dungeon)</a><br>
+		<a href="https://www.thegympod.com/104-amoy-st/104" target="_blank">Amoy Street</a></p>
+	</div>
+	</div>
+	
+</section>
+
+<!-------footer------->
+<style>
+.footer{
+	width: 100%;
+	text-align: center;
+	padding: 30px o;
+}
+
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+.icons .fa{
+	color: #f44336;
+	margin: 0 13px;
+	cursor: pointer;
+	padding: 18px o;
+}
+.fa-heart-o{
+	color: #f44336;
+}
+.footer{
+	background-color: #ccc;
+}
+</style>
+<section class="footer">
+	<h4>About Us</h4>
+	<p> Welcome to TheGYMPOD, your private gym awaits</p>
+	<div class="icons">
+		<a href="https://www.facebook.com/thegympod/" target="_blank" class="fa fa-facebook"></a>
+		<a href="https://www.instagram.com/thegympod/?hl=en" target="_blank" class="fa fa-instagram"></a>
+		<a href="https://www.youtube.com/channel/UCLw9GjZYmpQjrNu8GzZP_Xw" target="_blank" class="fa fa-youtube"></a>
+	</div>
+	<p> Made with <i class="fa fa-heart-o"></i> by Teo Shin Austin U2060110C
+	</p>
+</section>
+
+
+
+<!-------Javascript for Toggle Menu------->
+<script>
+
+	var navLinks = document.getElementById("navLinks");
+	function showMenu(){
+		navLinks.style.left = "0";
+	}
+	function hideMenu(){
+		navLinks.style.left = "-200px";
+	}
+
+</script>	
+	
+
+</body>
+</html>
